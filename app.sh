@@ -3,7 +3,7 @@ _build_owncloud() {
 local VERSION="10.13.1"
 local FOLDER="owncloud"
 local FILE="${FOLDER}-${VERSION}.tar.bz2"
-local URL="https://download.owncloud.com/server/${FILE}"
+local URL="https://download.owncloud.com/server/stable/${FILE}"
 
 _download_bz2 "${FILE}" "${URL}" "${FOLDER}"
 
