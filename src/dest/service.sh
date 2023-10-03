@@ -7,7 +7,7 @@
 
 framework_version="2.1"
 name="owncloud"
-version="8.2.2"
+version="10.13.1"
 description="ownCloud is a self-hosted file sync and share server"
 depends="apache locale"
 webui="WebUI"
